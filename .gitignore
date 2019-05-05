@@ -1,0 +1,9 @@
+*.aux
+*.bbl
+*.log
+*.out
+*.synctex.gz
+./latex/midterm.pdf
+*.blg
+*.bak
+core.*
