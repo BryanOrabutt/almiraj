@@ -1,0 +1,11 @@
+#!/bin/bash
+
+counter=0
+while [ $counter -le 5 ]
+do
+
+	echo $counter >> "./inputs/sample$counter.bin"
+	((counter++))
+done
+
+echo All done

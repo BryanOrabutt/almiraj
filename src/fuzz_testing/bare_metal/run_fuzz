@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#optimize CPU scaling governor
+LOC=`pwd`
+cd /sys/devices/system/cpu
+echo performance | sudo tee cpu*/cpufreq/scaling_governor
+cd $LOC
+
+
+AFL=$1
+PYTHON=`which python2`
+INPUTS=$2
+OUTPUT=$3
+
+if [ -z "$AFL" ]
+then
+	echo "No AFL path supplied. Defaulting to $HOME/afl-unicorn/afl-fuzz"
+	AFL="$HOME/afl-unicorn/afl-fuzz"
+fi
+
+if [ -z "$PYTHON" ]
+then
+	echo "'which python2' returned NULL. Defaulting to `which python`."
+	PYTHON=`which python`
+fi
+
+if [ -z "$INPUTS" ]
+then
+	echo "Inputs folder not provided. Defaulting to ./inputs/"
+	INPUTS="./inputs/"
+fi
+
+if [ -z "$OUTPUTS" ]
+then
+	echo "Output folder not provided. Deafulting to ./output/"
+	OUTPUT="./output/"
+fi
+
+exec $AFL -U -m none -i $INPUTS -o $OUTPUT -- $PYTHON test_harness.py @@

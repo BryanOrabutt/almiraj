@@ -1,0 +1,2 @@
+#cp ../almiraj_src/test_harness/freertos_test_harness.py ./test_harness.py
+cp ../BBB/app ./target.bin

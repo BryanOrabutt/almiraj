@@ -1,0 +1,116 @@
+[Init]
+[Emulation]
+>>> Tracing instruction at 0x1000000, instruction size = 0x4
+>>> Instruction code at [0x1000000] =0x1000000:	strdeq	r2, r3, [r0], -r4
+>>> R0 = 0x0; R1 = 0x0; PC = 0x1000000
+Invalid memory access at 0x0...
+>>> Tracing instruction at 0x1000004, instruction size = 0x4
+>>> Instruction code at [0x1000004] =0x1000004:	andhi	r0, r0, r0
+>>> R0 = 0x0; R1 = 0x0; PC = 0x1000004
+>>> Tracing instruction at 0x1000008, instruction size = 0x4
+>>> Instruction code at [0x1000008] =0x1000008:	ldr	r0, [pc, #0x9c]
+>>> R0 = 0x0; R1 = 0x0; PC = 0x1000008
+>>> Tracing instruction at 0x100000c, instruction size = 0x4
+>>> Instruction code at [0x100000c] =0x100000c:	msr	cpsr_c, #0xdb
+>>> R0 = 0x880091f8; R1 = 0x0; PC = 0x100000c
+>>> Tracing instruction at 0x1000010, instruction size = 0x4
+>>> Instruction code at [0x1000010] =0x1000010:	mov	sp, r0
+>>> R0 = 0x880091f8; R1 = 0x0; PC = 0x1000010
+>>> Tracing instruction at 0x1000014, instruction size = 0x4
+>>> Instruction code at [0x1000014] =0x1000014:	sub	r0, r0, #8
+>>> R0 = 0x880091f8; R1 = 0x0; PC = 0x1000014
+>>> Tracing instruction at 0x1000018, instruction size = 0x4
+>>> Instruction code at [0x1000018] =0x1000018:	msr	cpsr_c, #0xd7
+>>> R0 = 0x880091f0; R1 = 0x0; PC = 0x1000018
+>>> Tracing instruction at 0x100001c, instruction size = 0x4
+>>> Instruction code at [0x100001c] =0x100001c:	mov	sp, r0
+>>> R0 = 0x880091f0; R1 = 0x0; PC = 0x100001c
+>>> Tracing instruction at 0x1000020, instruction size = 0x4
+>>> Instruction code at [0x1000020] =0x1000020:	sub	r0, r0, #8
+>>> R0 = 0x880091f0; R1 = 0x0; PC = 0x1000020
+>>> Tracing instruction at 0x1000024, instruction size = 0x4
+>>> Instruction code at [0x1000024] =0x1000024:	msr	cpsr_c, #0xd1
+>>> R0 = 0x880091e8; R1 = 0x0; PC = 0x1000024
+>>> Tracing instruction at 0x1000028, instruction size = 0x4
+>>> Instruction code at [0x1000028] =0x1000028:	mov	sp, r0
+>>> R0 = 0x880091e8; R1 = 0x0; PC = 0x1000028
+>>> Tracing instruction at 0x100002c, instruction size = 0x4
+>>> Instruction code at [0x100002c] =0x100002c:	sub	r0, r0, #8
+>>> R0 = 0x880091e8; R1 = 0x0; PC = 0x100002c
+>>> Tracing instruction at 0x1000030, instruction size = 0x4
+>>> Instruction code at [0x1000030] =0x1000030:	msr	cpsr_c, #0xd2
+>>> R0 = 0x880091e0; R1 = 0x0; PC = 0x1000030
+>>> Tracing instruction at 0x1000034, instruction size = 0x4
+>>> Instruction code at [0x1000034] =0x1000034:	mov	sp, r0
+>>> R0 = 0x880091e0; R1 = 0x0; PC = 0x1000034
+>>> Tracing instruction at 0x1000038, instruction size = 0x4
+>>> Instruction code at [0x1000038] =0x1000038:	sub	r0, r0, #0x1000
+>>> R0 = 0x880091e0; R1 = 0x0; PC = 0x1000038
+>>> Tracing instruction at 0x100003c, instruction size = 0x4
+>>> Instruction code at [0x100003c] =0x100003c:	msr	cpsr_c, #0xd3
+>>> R0 = 0x880081e0; R1 = 0x0; PC = 0x100003c
+>>> Tracing instruction at 0x1000040, instruction size = 0x4
+>>> Instruction code at [0x1000040] =0x1000040:	mov	sp, r0
+>>> R0 = 0x880081e0; R1 = 0x0; PC = 0x1000040
+>>> Tracing instruction at 0x1000044, instruction size = 0x4
+>>> Instruction code at [0x1000044] =0x1000044:	sub	r0, r0, #8
+>>> R0 = 0x880081e0; R1 = 0x0; PC = 0x1000044
+>>> Tracing instruction at 0x1000048, instruction size = 0x4
+>>> Instruction code at [0x1000048] =0x1000048:	msr	cpsr_c, #0xdf
+>>> R0 = 0x880081d8; R1 = 0x0; PC = 0x1000048
+>>> Tracing instruction at 0x100004c, instruction size = 0x4
+>>> Instruction code at [0x100004c] =0x100004c:	mov	sp, r0
+>>> R0 = 0x880081d8; R1 = 0x0; PC = 0x100004c
+>>> Tracing instruction at 0x1000050, instruction size = 0x4
+>>> Instruction code at [0x1000050] =0x1000050:	mov	r0, #0
+>>> R0 = 0x880081d8; R1 = 0x0; PC = 0x1000050
+>>> Tracing instruction at 0x1000054, instruction size = 0x4
+>>> Instruction code at [0x1000054] =0x1000054:	mcr	p15, #0, r0, c7, c5, #6
+>>> R0 = 0x0; R1 = 0x0; PC = 0x1000054
+>>> Tracing instruction at 0x1000058, instruction size = 0x4
+>>> Instruction code at [0x1000058] =0x1000058:	isb	sy
+>>> R0 = 0x0; R1 = 0x0; PC = 0x1000058
+>>> Tracing instruction at 0x100005c, instruction size = 0x4
+>>> Instruction code at [0x100005c] =0x100005c:	mrc	p15, #0, r0, c1, c0, #0
+>>> R0 = 0x0; R1 = 0x0; PC = 0x100005c
+>>> Tracing instruction at 0x1000060, instruction size = 0x4
+>>> Instruction code at [0x1000060] =0x1000060:	orr	r0, r0, #0x800
+>>> R0 = 0xc50078; R1 = 0x0; PC = 0x1000060
+>>> Tracing instruction at 0x1000064, instruction size = 0x4
+>>> Instruction code at [0x1000064] =0x1000064:	mcr	p15, #0, r0, c1, c0, #0
+>>> R0 = 0xc50878; R1 = 0x0; PC = 0x1000064
+>>> Tracing instruction at 0x1000068, instruction size = 0x4
+>>> Instruction code at [0x1000068] =0x1000068:	mrc	p15, #0, r1, c1, c0, #2
+>>> R0 = 0xc50878; R1 = 0x0; PC = 0x1000068
+>>> Tracing instruction at 0x100006c, instruction size = 0x4
+>>> Instruction code at [0x100006c] =0x100006c:	orr	r1, r1, #0xf00000
+>>> R0 = 0xc50878; R1 = 0x0; PC = 0x100006c
+>>> Tracing instruction at 0x1000070, instruction size = 0x4
+>>> Instruction code at [0x1000070] =0x1000070:	mcr	p15, #0, r1, c1, c0, #2
+>>> R0 = 0xc50878; R1 = 0xf00000; PC = 0x1000070
+>>> Tracing instruction at 0x1000074, instruction size = 0x4
+>>> Instruction code at [0x1000074] =0x1000074:	mov	r1, #0
+>>> R0 = 0xc50878; R1 = 0xf00000; PC = 0x1000074
+>>> Tracing instruction at 0x1000078, instruction size = 0x4
+>>> Instruction code at [0x1000078] =0x1000078:	mcr	p15, #0, r1, c7, c5, #4
+>>> R0 = 0xc50878; R1 = 0x0; PC = 0x1000078
+>>> Tracing instruction at 0x100007c, instruction size = 0x4
+>>> Instruction code at [0x100007c] =0x100007c:	mov	r0, #0x40000000
+>>> R0 = 0xc50878; R1 = 0x0; PC = 0x100007c
+>>> Tracing instruction at 0x1000080, instruction size = 0x4
+>>> Instruction code at [0x1000080] =0x1000080:	vmsr	fpexc, r0
+>>> R0 = 0x40000000; R1 = 0x0; PC = 0x1000080
+>>> Tracing instruction at 0x1000084, instruction size = 0x4
+>>> Instruction code at [0x1000084] =0x1000084:	ldr	r0, [pc, #0x24]
+>>> R0 = 0x40000000; R1 = 0x0; PC = 0x1000084
+>>> Tracing instruction at 0x1000088, instruction size = 0x4
+>>> Instruction code at [0x1000088] =0x1000088:	ldr	r1, [pc, #0x24]
+>>> R0 = 0x800026ec; R1 = 0x0; PC = 0x1000088
+>>> Tracing instruction at 0x100008c, instruction size = 0x4
+>>> Instruction code at [0x100008c] =0x100008c:	mov	r2, #0
+>>> R0 = 0x800026ec; R1 = 0x800089fc; PC = 0x100008c
+>>> Tracing instruction at 0x1000090, instruction size = 0x4
+>>> Instruction code at [0x1000090] =0x1000090:	str	r2, [r0], #4
+>>> R0 = 0x800026ec; R1 = 0x800089fc; PC = 0x1000090
+Invalid memory access at 0x800026ec...
+ERROR: Invalid memory write (UC_ERR_WRITE_UNMAPPED)

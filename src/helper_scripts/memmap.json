@@ -1,0 +1,534 @@
+{
+    "function": [
+        {
+            "base": "80000000",
+            "name": "Entry",
+            "size": 30
+        },
+        {
+            "base": "8000007c",
+            "name": "Clear_Bss_Section",
+            "size": 3
+        },
+        {
+            "base": "80000088",
+            "name": "Loop",
+            "size": 13
+        },
+        {
+            "base": "800000b4",
+            "name": "bad1",
+            "size": 8
+        },
+        {
+            "base": "800000d4",
+            "name": "main",
+            "size": 20
+        },
+        {
+            "base": "80000124",
+            "name": "start_boot",
+            "size": 24
+        },
+        {
+            "base": "80000184",
+            "name": "CP15ICacheDisable",
+            "size": 7
+        },
+        {
+            "base": "800001a0",
+            "name": "CP15DCacheDisable",
+            "size": 7
+        },
+        {
+            "base": "800001bc",
+            "name": "CP15ICacheEnable",
+            "size": 4
+        },
+        {
+            "base": "800001cc",
+            "name": "CP15DCacheEnable",
+            "size": 4
+        },
+        {
+            "base": "800001dc",
+            "name": "CP15DCacheFlush",
+            "size": 7
+        },
+        {
+            "base": "800001f8",
+            "name": "floop1",
+            "size": 15
+        },
+        {
+            "base": "80000234",
+            "name": "floop2",
+            "size": 1
+        },
+        {
+            "base": "80000238",
+            "name": "floop3",
+            "size": 7
+        },
+        {
+            "base": "80000254",
+            "name": "fskip",
+            "size": 3
+        },
+        {
+            "base": "80000260",
+            "name": "ffinished",
+            "size": 4
+        },
+        {
+            "base": "80000270",
+            "name": "CP15DCacheClean",
+            "size": 7
+        },
+        {
+            "base": "8000028c",
+            "name": "cloop1",
+            "size": 15
+        },
+        {
+            "base": "800002c8",
+            "name": "cloop2",
+            "size": 1
+        },
+        {
+            "base": "800002cc",
+            "name": "cloop3",
+            "size": 7
+        },
+        {
+            "base": "800002e8",
+            "name": "cskip",
+            "size": 3
+        },
+        {
+            "base": "800002f4",
+            "name": "cfinished",
+            "size": 4
+        },
+        {
+            "base": "80000304",
+            "name": "CP15DCacheCleanFlush",
+            "size": 7
+        },
+        {
+            "base": "80000320",
+            "name": "loop1",
+            "size": 15
+        },
+        {
+            "base": "8000035c",
+            "name": "loop2",
+            "size": 1
+        },
+        {
+            "base": "80000360",
+            "name": "loop3",
+            "size": 7
+        },
+        {
+            "base": "8000037c",
+            "name": "skip",
+            "size": 3
+        },
+        {
+            "base": "80000388",
+            "name": "finished",
+            "size": 4
+        },
+        {
+            "base": "80000398",
+            "name": "CP15ICacheFlush",
+            "size": 4
+        },
+        {
+            "base": "800003a8",
+            "name": "CP15DCacheCleanBuff",
+            "size": 14
+        },
+        {
+            "base": "800003e0",
+            "name": "cleanloop",
+            "size": 7
+        },
+        {
+            "base": "800003fc",
+            "name": "CP15DCacheCleanFlushBuff",
+            "size": 14
+        },
+        {
+            "base": "80000434",
+            "name": "cleanflushloop",
+            "size": 7
+        },
+        {
+            "base": "80000450",
+            "name": "CP15DCacheFlushBuff",
+            "size": 18
+        },
+        {
+            "base": "80000498",
+            "name": "dflushloop",
+            "size": 2
+        },
+        {
+            "base": "800004a0",
+            "name": "dflushcmp",
+            "size": 5
+        },
+        {
+            "base": "800004b4",
+            "name": "CP15ICacheFlushBuff",
+            "size": 14
+        },
+        {
+            "base": "800004ec",
+            "name": "iflushloop",
+            "size": 7
+        },
+        {
+            "base": "80000508",
+            "name": "CP15Ttb0Set",
+            "size": 3
+        },
+        {
+            "base": "80000514",
+            "name": "CP15TlbInvalidate",
+            "size": 3
+        },
+        {
+            "base": "80000520",
+            "name": "CP15MMUDisable",
+            "size": 6
+        },
+        {
+            "base": "80000538",
+            "name": "CP15MMUEnable",
+            "size": 5
+        },
+        {
+            "base": "8000054c",
+            "name": "CP15VectorBaseAddrSet",
+            "size": 3
+        },
+        {
+            "base": "80000558",
+            "name": "CP15BranchPredictorInvalidate",
+            "size": 3
+        },
+        {
+            "base": "80000564",
+            "name": "CP15BranchPredictionEnable",
+            "size": 4
+        },
+        {
+            "base": "80000574",
+            "name": "CP15BranchPredictionDisable",
+            "size": 4
+        },
+        {
+            "base": "80000584",
+            "name": "CP15DomainAccessClientSet",
+            "size": 4
+        },
+        {
+            "base": "80000594",
+            "name": "CP15ControlFeatureDisable",
+            "size": 5
+        },
+        {
+            "base": "800005a8",
+            "name": "CP15ControlFeatureEnable",
+            "size": 5
+        },
+        {
+            "base": "800005bc",
+            "name": "CP15TtbCtlTtb0Config",
+            "size": 4
+        },
+        {
+            "base": "800005cc",
+            "name": "CP15AuxControlFeatureEnable",
+            "size": 5
+        },
+        {
+            "base": "800005e0",
+            "name": "CP15AuxControlFeatureDisable",
+            "size": 5
+        },
+        {
+            "base": "800005f4",
+            "name": "CP15MainIdPrimPartNumGet",
+            "size": 3
+        },
+        {
+            "base": "80000600",
+            "name": "_CLIENTD",
+            "size": 1
+        },
+        {
+            "base": "80000604",
+            "name": "_FLD_MAX_WAY",
+            "size": 1
+        },
+        {
+            "base": "80000608",
+            "name": "_FLD_MAX_IDX",
+            "size": 1
+        },
+        {
+            "base": "8000060c",
+            "name": "SVC_Handler2",
+            "size": 10
+        },
+        {
+            "base": "80000634",
+            "name": "IRQHandler2",
+            "size": 43
+        },
+        {
+            "base": "800006e0",
+            "name": "FIQHandler",
+            "size": 1
+        },
+        {
+            "base": "800006e4",
+            "name": "AbortHandler",
+            "size": 6
+        },
+        {
+            "base": "800006fc",
+            "name": "IntDefaultHandler",
+            "size": 1
+        },
+        {
+            "base": "80000700",
+            "name": "IntRegister",
+            "size": 4
+        },
+        {
+            "base": "80000710",
+            "name": "IntAINTCInit",
+            "size": 21
+        },
+        {
+            "base": "80000764",
+            "name": "IntPrioritySet",
+            "size": 9
+        },
+        {
+            "base": "80000788",
+            "name": "IntSystemEnable",
+            "size": 9
+        },
+        {
+            "base": "800007ac",
+            "name": "IntActiveIrqNumGet",
+            "size": 5
+        },
+        {
+            "base": "800007c0",
+            "name": "IntMasterIRQEnable",
+            "size": 5
+        },
+        {
+            "base": "800007d4",
+            "name": "CPUirqe",
+            "size": 5
+        },
+        {
+            "base": "800007e8",
+            "name": "SVC_Handler",
+            "size": 48
+        },
+        {
+            "base": "800008a8",
+            "name": "IRQHandler",
+            "size": 49
+        },
+        {
+            "base": "8000096c",
+            "name": "vTickISR",
+            "size": 28
+        },
+        {
+            "base": "800009dc",
+            "name": "vPortEnterCritical",
+            "size": 11
+        },
+        {
+            "base": "80000a08",
+            "name": "vPortExitCritical",
+            "size": 17
+        },
+        {
+            "base": "80000a4c",
+            "name": "prvResetNextTaskUnblockTime",
+            "size": 14
+        },
+        {
+            "base": "80000a84",
+            "name": "xTaskCreate",
+            "size": 169
+        },
+        {
+            "base": "80000d28",
+            "name": "vTaskStartScheduler",
+            "size": 39
+        },
+        {
+            "base": "80000dc4",
+            "name": "vTaskSuspendAll",
+            "size": 6
+        },
+        {
+            "base": "80000ddc",
+            "name": "xTaskIncrementTick",
+            "size": 118
+        },
+        {
+            "base": "80000fb4",
+            "name": "xTaskResumeAll",
+            "size": 96
+        },
+        {
+            "base": "80001134",
+            "name": "prvIdleTask",
+            "size": 58
+        },
+        {
+            "base": "8000121c",
+            "name": "vTaskSwitchContext",
+            "size": 46
+        },
+        {
+            "base": "800012d4",
+            "name": "pvPortMalloc",
+            "size": 35
+        },
+        {
+            "base": "80001360",
+            "name": "vPortFree",
+            "size": 1
+        },
+        {
+            "base": "80001364",
+            "name": "vListInitialise",
+            "size": 9
+        },
+        {
+            "base": "80001388",
+            "name": "vListInitialiseItem",
+            "size": 3
+        },
+        {
+            "base": "80001394",
+            "name": "vListInsertEnd",
+            "size": 10
+        },
+        {
+            "base": "800013bc",
+            "name": "uxListRemove",
+            "size": 14
+        },
+        {
+            "base": "800013f4",
+            "name": "pxPortInitialiseStack",
+            "size": 98
+        },
+        {
+            "base": "8000157c",
+            "name": "xPortStartScheduler",
+            "size": 79
+        },
+        {
+            "base": "800016b8",
+            "name": "DMTimerEnable",
+            "size": 11
+        },
+        {
+            "base": "800016e4",
+            "name": "DMTimerModeConfigure",
+            "size": 22
+        },
+        {
+            "base": "8000173c",
+            "name": "DMTimerCounterSet",
+            "size": 9
+        },
+        {
+            "base": "80001760",
+            "name": "DMTimerReloadSet",
+            "size": 9
+        },
+        {
+            "base": "80001784",
+            "name": "DMTimerIntStatusClear",
+            "size": 3
+        },
+        {
+            "base": "80001790",
+            "name": "DMTimerIntEnable",
+            "size": 3
+        },
+        {
+            "base": "8000179c",
+            "name": "DMTimerIntDisable",
+            "size": 3
+        },
+        {
+            "base": "800017a8",
+            "name": "DMTimer2ModuleClkConfig",
+            "size": 106
+        },
+        {
+            "base": "80001950",
+            "name": "CacheEnable",
+            "size": 33
+        },
+        {
+            "base": "800019d4",
+            "name": "strcpy",
+            "size": 60
+        },
+        {
+            "base": "80001ac4",
+            "name": "__aeabi_uidiv",
+            "size": 61
+        },
+        {
+            "base": "80001bb8",
+            "name": "__aeabi_uidivmod",
+            "size": 8
+        },
+        {
+            "base": "80001bd8",
+            "name": "__aeabi_idiv",
+            "size": 2
+        },
+        {
+            "base": "80001be0",
+            "name": ".divsi3_skip_div0_test",
+            "size": 72
+        },
+        {
+            "base": "80001d00",
+            "name": "__aeabi_idivmod",
+            "size": 8
+        },
+        {
+            "base": "80001d20",
+            "name": "__aeabi_idiv0",
+            "size": 2
+        },
+        {
+            "base": "80001d28",
+            "name": "vecTbl",
+            "size": 4
+        }
+    ]
+}
