@@ -1,0 +1,6 @@
+[submodule "afl-unicorn"]
+	path = afl-unicorn
+	url = git@github.com:BryanOrabutt/afl-unicorn.git
+[submodule "openocd"]
+	path = openocd
+	url = git://git.ti.com/sdo-emu/openocd.git
