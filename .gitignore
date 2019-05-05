@@ -6,4 +6,5 @@
 ./latex/midterm.pdf
 *.blg
 *.bak
+*.bak*
 core.*
