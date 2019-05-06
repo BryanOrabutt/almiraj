@@ -1,4 +1,4 @@
-# Almiraj -- A method for fuzzing embedded devices using Unicorn and AFL
+# Almiraj
 
 ## Directory structure
 
