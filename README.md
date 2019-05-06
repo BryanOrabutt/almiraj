@@ -1,3 +1,5 @@
+#Almiraj -- A method for fuzzing embedded devices using Unicorn and AFL
+
 ##Directory structure
 
 * src contains afl-unicorn, openOCD.py (for JTAG), helper scripts for emulation, unicorn engine, openocd tcl scripts for BBB and XDS110 JTAG emulator
