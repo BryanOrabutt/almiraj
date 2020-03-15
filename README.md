@@ -29,3 +29,6 @@ Files created by others but modified by us are listed below. A \* after a direct
 * BBB/makedefs_ti
 * BBB/makefile
 * BBB/include/rtos/FreeRTOSConfig.h
+
+---
+Project by [Bryan Orabutt](https://github.com/BryanOrabutt) and [Zach Heller](https://github.com/zacheller/)
